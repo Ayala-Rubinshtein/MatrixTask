@@ -1,0 +1,19 @@
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+div {
+    width: 300px;
+    margin: 100 auto;
+    text-align: center;
+    align-items: center;
+}
+p{
+    color: #f44336;
+    background: #00968840;
+}
+button
+{
+    background: chartreuse;
+}

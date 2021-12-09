@@ -1,0 +1,44 @@
+<br><br><br>
+<form >
+
+    <mat-form-field appearance="fill">
+      <mat-label>בחר תאריך התחלה לשיעור</mat-label>
+      <input matInput [matDatepicker]="picker" [formControl]="date">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    
+    <mat-form-field appearance="fill">
+      <mat-label>בחר מגיד שיעור</mat-label>
+      <mat-select [formControl]="position">
+        <mat-option *ngFor="let positionOption of positionOptions" [value]="positionOption">
+          {{positionOption.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+<br>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>בחר שם לשיעור</mat-label>
+    <input #text="ngModel" name="text"   matInput type="text" [(ngModel)]="name">
+  </mat-form-field>
+  <div *ngIf="name!=null">
+  <p >שים לב שם השיעור יושמע למאזין 
+    <br>
+    כאפשרות לבחירת שיעור לשמיעה</p></div>
+<h2>בחר קובץ שמע לשיעור</h2>
+
+<input type="file" name="aaa" (change)="handleFileInput($event.target.files)" style="text-align-last: center;"/>
+
+<br>
+<br>
+<div *ngIf="file" style="text-align:center ;">
+<div>שם הקובץ: {{file.name}}</div>
+<div>סוג: {{file.type}}</div>
+<div>גודל: {{file.size}}</div>
+<div>משך זמן: {{duration}}</div>
+</div>
+<br><br>
+    <button mat-raised-button color="accent" (click)="uploadLesson()" [disabled]="date.value==null || file==undefined ||position.value==null">אישור</button>
+    
+</form>
+<ngx-ui-loader></ngx-ui-loader>
