@@ -1,0 +1,10 @@
+C:\Users\User\Documents\‏‏תיקיה חדשה\bin\Debug\Log4Net_1.exe.config
+C:\Users\User\Documents\‏‏תיקיה חדשה\bin\Debug\Log4Net_1.exe
+C:\Users\User\Documents\‏‏תיקיה חדשה\bin\Debug\Log4Net_1.pdb
+C:\Users\User\Documents\‏‏תיקיה חדשה\bin\Debug\log4net.dll
+C:\Users\User\Documents\‏‏תיקיה חדשה\bin\Debug\log4net.xml
+C:\Users\User\Documents\‏‏תיקיה חדשה\obj\Debug\Log4Net_1.csproj.AssemblyReference.cache
+C:\Users\User\Documents\‏‏תיקיה חדשה\obj\Debug\Log4Net_1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\‏‏תיקיה חדשה\obj\Debug\Log4Net_1.csproj.CopyComplete
+C:\Users\User\Documents\‏‏תיקיה חדשה\obj\Debug\Log4Net_1.exe
+C:\Users\User\Documents\‏‏תיקיה חדשה\obj\Debug\Log4Net_1.pdb
